@@ -306,9 +306,6 @@ a{
 }
 
 @media screen and (min-width:768px){
-    body{
-        /* background-color:red; */
-    }
 
     .span-class{
         display:none;
@@ -414,10 +411,10 @@ a{
 
     .container-img{
         /* height:500px; */
-        background:url('/images/desktop/image-transform.jpg')center  left -21px no-repeat;
+        background:url('/images/desktop/image-transform.jpg')center no-repeat;
         background-size:cover;
         order:2;
-        width:max-content;
+        /* width:max-content; */
     }
 
     .container-text, .container-1-text{
